@@ -1,0 +1,43 @@
+https://www.youtube.com/watch?v=_ZTT9kw3PIE
+
+js + css ihop är NICE
+  import css
+  jsx
+
+kort summering: definiera hur saker ska renderas, hantera ditt state så fixar react renderingen
+lite som en spelmotor ;)
+
+jsx är ju dock inte react-specifikt?
+import css är int heller något react-specifikt?
+
+hur ska man strukturera, 
+en app för hela sidan?
+flera delar och kommunicera via events?
+state bara i översta "Appen"?
+
+default state? sizes array t.ex
+
+componentDidMount ? är det rätt?
+ - eller getInitialState? 
+ - componentdidmount för ajax och initialstate för state som måste finnas, typ array för en lista eller nått
+
+nice med js only så man kan göra vad man vill
+coupla saker om man känner för det eller sköta allt via "config" typ props etc
+
+Åkte dit på att return i render, map måste ha ett element och inte två eller fler på rad
+dvs man behöver wrappa (ex. <div> <div..> <div..> </div> är ok men inte <div..> <div..>
+
+översätta ifrån en typ av item till ett annat, t.ex product => cartproduct
+ - kanske inget problem eftersom datan laddas från backend?
+
+animationer etc? typ add to cart?
+
+Hur gör man med server-rendering? inte undersökt hur det lirar med razor mm
+
+Arrow functions captures this, or it does not have it's own this scope.
+
+Kassan skulle vara "enkel" att göra i react, den är redan uppdelad korrekt ifrån backend-sidan.
+Ett stort objekt som ändras så det är ju "bara" att putta in det i state så löser React resten.
+Idag använder vi en plugin till knockout som gör ungefär samma sak (principiellt sett).
+Implementationen skulle bli väldigt mycket mer nice vad jag kan se nu.
+- libraries eller css-animationer med react-css transitions?
